@@ -1,7 +1,7 @@
 --------------
 --ITEM RECIPES
 --------------
-
+--[[
 --Smoker Craft Recipe
 minetest.register_craft( {
 	output = "bbq:smoker",
@@ -41,7 +41,7 @@ minetest.register_craft( {
 		{"", "default:steel_ingot", ""}
 	}
 })
-
+]]--
 --Chimeny Smoke Craft Recipe
 minetest.register_craft( {
 	output = "bbq:chimney_smoke",
@@ -51,7 +51,7 @@ minetest.register_craft( {
 		{"", "default:torch", ""}
 	}
 })
-
+--[[
 --Beef Map Recipe
 minetest.register_craft( {
 	output = "bbq:beef_map",
@@ -705,3 +705,4 @@ minetest.register_craft({
 	recipe = "bbq:grilled_corn_raw",
 	cooktime = 4,
 })
+]]--

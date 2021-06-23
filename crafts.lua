@@ -1,4 +1,5 @@
 -- Kettle Grill
+--[[
 minetest.register_node("bbq:kettle_grill", {
 	description = ("Kettle Grill"),
 	inventory_image = "bbq_kettle_grill.png",
@@ -30,7 +31,7 @@ minetest.register_node("bbq:sawdust", {
 			},
 		},
 })
-
+]]--
 -- Chimeny Smoke
 minetest.register_node("bbq:chimney_smoke", {
 	description = ("Chimney Smoke"),
@@ -40,6 +41,8 @@ minetest.register_node("bbq:chimney_smoke", {
 	paramtype = "light",
 	paramtype2 = "facedir",
 	sunlight_propagates = true,
+	walkable = false,
+	-- climbable = true,
 	tiles = {
 		{
 			image = "bbq_chimney_smoke_animation.png",
@@ -55,8 +58,10 @@ minetest.register_node("bbq:chimney_smoke", {
 	},
 
 
-	groups = {dig_immediate = 3, attached_node = 1},
+	groups = {dig_immediate = 3},
 })
+
+--[[
 
 -- Foil
 minetest.register_craftitem("bbq:foil", {
@@ -917,3 +922,4 @@ minetest.register_node("bbq:grill_brush", {
 	},
 	on_use = on_use_play_sound("bbq_grill_brush", true),
 })
+]]--
