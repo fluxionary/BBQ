@@ -4,7 +4,6 @@ minetest.register_node("bbq:sawdust", {
 	description = ("Saw Dust"),
 	inventory_image = "bbq_sawdust.png",
 	wield_image = "bbq_sawdust.png",
-	drawtype = "plantlike",
 	tiles = {
 		"bbq_sawdust.png",
 	},
