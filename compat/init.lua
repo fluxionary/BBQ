@@ -1,0 +1,7 @@
+bbq.dofile("compat", "crops_groups")
+bbq.dofile("compat", "default_drops")
+bbq.dofile("compat", "hot_sauce")
+bbq.dofile("compat", "mobs_animal_drops")
+bbq.dofile("compat", "old_bbq")
+bbq.dofile("compat", "petz_mobs_animal")
+bbq.dofile("compat", "xdecor_groups")

@@ -1,0 +1,8 @@
+bbq.dofile("items", "basting_brush")
+bbq.dofile("items", "woodpiles")
+bbq.dofile("items", "items")
+bbq.dofile("items", "food_raw")
+bbq.dofile("items", "food_cooked")
+bbq.dofile("items", "food_other")
+bbq.dofile("items", "extra")
+bbq.dofile("items", "compat")
