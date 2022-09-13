@@ -1,3 +1,17 @@
+minetest.register_craftitem("bbq:bacon_raw", {
+	description = ("Bacon Raw"),
+	inventory_image = "bbq_bacon_raw.png",
+	groups = {food = 1, food_meat_raw = 1, food_bacon_raw = 1},
+	on_use = minetest.item_eat(1),
+})
+
+minetest.register_craftitem("bbq:beef_raw", {
+	description = ("Raw Beef"),
+	inventory_image = "bbq_beef_raw.png",
+	groups = {food = 1, food_meat_raw = 1, food_beef_raw = 1},
+	on_use = minetest.item_eat(1),
+})
+
 minetest.register_craftitem("bbq:veggie_kebab_raw", {
 	description = ("Veggie Kebab Raw"),
 	inventory_image = "bbq_veggie_kebab_raw.png",

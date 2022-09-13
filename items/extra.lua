@@ -223,13 +223,11 @@ minetest.register_craftitem("bbq:hawaiian_pizza", {
 	on_use = minetest.item_eat(5),
 })
 
-if not bbq.has.yl_seasons then
-	minetest.register_craftitem("bbq:cornmeal", {
-		description = S("Corn Meal"),
-		inventory_image = "bbq_cornmeal.png",
-		groups = {food_vegan = 1, food_flour = 1, food_corn_flour = 1}
-	})
-end
+minetest.register_craftitem("bbq:cornmeal", {
+	description = S("Corn Meal"),
+	inventory_image = "bbq_cornmeal.png",
+	groups = {food_vegan = 1, food_flour = 1, food_corn_flour = 1}
+})
 
 minetest.register_craftitem("bbq:cornbread", {
 	description = S("Cornbread"),

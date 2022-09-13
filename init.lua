@@ -12,18 +12,10 @@ bbq = {
 
 	has = {
 		bucket = minetest.get_modpath("bucket"),
-		canned_food = minetest.get_modpath("canned_food"),
-		crops = minetest.get_modpath("crops"),
 		default = minetest.get_modpath("default"),
 		farming = minetest.get_modpath("farming"),
 		flowers = minetest.get_modpath("flowers"), -- mushrooms
-		mobs = minetest.get_modpath("mobs"),
-		mobs_animal = minetest.get_modpath("mobs_animal"),
-		petz = minetest.get_modpath("petz"),
-		sandwiches = minetest.get_modpath("sandwiches"),
 		vessels = minetest.get_modpath("vessels"),
-		xdecor = minetest.get_modpath("xdecor"),
-		yl_seasons = minetest.get_modpath("yl_seasons"),
 	},
 
 	log = function(level, messagefmt, ...)
@@ -41,8 +33,4 @@ bbq.dofile("resources", "init")
 bbq.dofile("items", "init")
 
 bbq.dofile("compat", "init")
-
-minetest.register_on_mods_loaded(function()
-	bbq.dofile("crafts", "init")
-end)
-
+bbq.dofile("crafts", "init")

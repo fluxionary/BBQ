@@ -26,6 +26,8 @@ stds.bbq = {
 		"bbq",
 	},
 	read_globals = {
+		"craftsystem",
 		"default",
+		"futil",
 	},
 }

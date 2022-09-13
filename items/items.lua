@@ -89,19 +89,17 @@ minetest.register_node("bbq:paprika", {
 	sounds = sounds.glass,
 })
 
-if not minetest.registered_items["farming:salt"] then
-	minetest.register_node("bbq:sea_salt", {
-		description = ("Sea Salt"),
-		inventory_image = "bbq_sea_salt.png",
-		wield_image = "bbq_sea_salt.png",
-		paramtype = "light",
-		paramtype2 = "facedir",
-		drawtype = "plantlike",
-		tiles = {"bbq_sea_salt.png"},
-		groups = {food_salt = 1, vessel = 1, dig_immediate = 3, attached_node = 1},
-		sounds = sounds.glass,
-	})
-end
+minetest.register_node("bbq:sea_salt", {
+	description = ("Sea Salt"),
+	inventory_image = "bbq_sea_salt.png",
+	wield_image = "bbq_sea_salt.png",
+	paramtype = "light",
+	paramtype2 = "facedir",
+	drawtype = "plantlike",
+	tiles = {"bbq_sea_salt.png"},
+	groups = {food_salt = 1, vessel = 1, dig_immediate = 3, attached_node = 1},
+	sounds = sounds.glass,
+})
 
 -- Brine
 minetest.register_node("bbq:brine", {
@@ -142,33 +140,29 @@ minetest.register_node("bbq:liquid_smoke", {
 	sounds = sounds.glass,
 })
 
-if not minetest.registered_items["farming:sugar"] then
-	minetest.register_node("bbq:sugar", {
-		description = ("Sugar"),
-		inventory_image = "bbq_sugar.png",
-		wield_image = "bbq_sugar.png",
-		paramtype = "light",
-		paramtype2 = "facedir",
-		drawtype = "plantlike",
-		tiles = {"bbq_sugar.png"},
-		groups = {vessel = 1, food_sugar = 1, dig_immediate = 3, attached_node = 1},
-		sounds = sounds.glass,
-	})
-end
+minetest.register_node("bbq:sugar", {
+	description = ("Sugar"),
+	inventory_image = "bbq_sugar.png",
+	wield_image = "bbq_sugar.png",
+	paramtype = "light",
+	paramtype2 = "facedir",
+	drawtype = "plantlike",
+	tiles = {"bbq_sugar.png"},
+	groups = {vessel = 1, food_sugar = 1, dig_immediate = 3, attached_node = 1},
+	sounds = sounds.glass,
+})
 
-if not minetest.get_modpath("cucina_vegana") then
-	minetest.register_node("bbq:molasses", {
-		description = ("Molasses"),
-		inventory_image = "bbq_molasses.png",
-		wield_image = "bbq_molasses.png",
-		paramtype = "light",
-		paramtype2 = "facedir",
-		drawtype = "plantlike",
-		tiles = {"bbq_molasses.png"},
-		groups = {food_molasses = 1, vessel = 1, dig_immediate = 3, attached_node = 1},
-		sounds = sounds.glass,
-	})
-end
+minetest.register_node("bbq:molasses", {
+	description = ("Molasses"),
+	inventory_image = "bbq_molasses.png",
+	wield_image = "bbq_molasses.png",
+	paramtype = "light",
+	paramtype2 = "facedir",
+	drawtype = "plantlike",
+	tiles = {"bbq_molasses.png"},
+	groups = {food_molasses = 1, vessel = 1, dig_immediate = 3, attached_node = 1},
+	sounds = sounds.glass,
+})
 
 minetest.register_node("bbq:hot_sauce", {
 	description = ("Hot Sauce"),

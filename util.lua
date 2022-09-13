@@ -1,15 +1,5 @@
 local util = {}
 
-function util.check_item_exists(item)
-	while minetest.registered_aliases[item] do
-		item = minetest.registered_aliases[item]
-	end
-
-	if minetest.registered_items[item] then
-		return item
-	end
-end
-
 local group_exists = {}
 
 minetest.register_on_mods_loaded(function()

@@ -7,5 +7,3 @@ bbq.dofile("crafts", "other")
 bbq.dofile("crafts", "extra")
 bbq.dofile("crafts", "cooking")
 bbq.dofile("crafts", "woodpiles")
-
-bbq.dofile("crafts", "compat")
