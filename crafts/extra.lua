@@ -58,7 +58,7 @@ cs.register_craft({
 cs.register_craft({
 	type = "shapeless",
 	output = "bbq:cornmeal",
-	recipe = {cg.food_mortar_pestle, cg.food_corn}
+	recipe = {cg.food_mortar_pestle, cg.food_corn, cg.food_corn, cg.food_corn, cg.food_corn}
 })
 cs.register_craft({
 	type = "shapeless",
