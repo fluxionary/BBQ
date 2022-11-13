@@ -1,11 +1,6 @@
 local cs = craftsystem.api
 
-local ci = bbq.resources.craftitems
 local cg = bbq.resources.craftgroups
-
-if ci.bucket_water then
-	cs.register_craft({type="cooking", output="bbq:sea_salt", recipe=ci.bucket_water, cooktime=8})
-end
 
 cs.register_craft({type="cooking", output="bbq:hamburger_patty", recipe="bbq:hamburger_patty_raw", cooktime=5})
 cs.register_craft({type="cooking", output="bbq:hotdog_cooked", recipe="bbq:hotdog_raw", cooktime=5})
