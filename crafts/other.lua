@@ -1,5 +1,6 @@
 local ci = bbq.resources.craftitems
 local cg = bbq.resources.craftgroups
+local cs = craftsystem.api
 
 if cg.torch and cg.wood then
 	minetest.register_craft({
@@ -22,3 +23,5 @@ if ci.cotton and ci.tin and cg.stick then
 		}
 	})
 end
+
+cs.register_replacement("bbq:basting_brush", "bbq:basting_brush")
