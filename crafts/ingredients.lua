@@ -54,10 +54,18 @@ cs.register_craft({
 	},
 	no_replace = {cg.food_water_glass, cg.food_water_glass, cg.food_water_glass},
 })
+
 cs.register_replacement("bbq:vinegar", "bbq:vinegar_mother")
+
 if ci.glass_empty then
 	cs.register_replacement("bbq:vinegar_mother", ci.glass_empty)
 end
+
+cs.register_craft({
+	type = "shapeless",
+	output = "bbq:yeast",
+	recipe = {"bbq:yeast", cg.food_sugar}
+})
 
 cs.register_craft({
 	type = "shapeless",
