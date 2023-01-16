@@ -72,8 +72,8 @@ cs.register_craft({
 	output = "bbq:tomato_sauce",
 	recipe = {cg.food_tomato, ci.bottle_empty, cg.food_saucepan},
 })
-if ci.glass_empty then
-	cs.register_replacement("bbq:tomato_sauce", ci.glass_empty)
+if ci.bottle_empty then
+	cs.register_replacement("bbq:tomato_sauce", ci.bottle_empty)
 end
 
 cs.register_craft({
