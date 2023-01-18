@@ -63,7 +63,7 @@ end
 
 cs.register_craft({
 	type = "shapeless",
-	output = "bbq:yeast",
+	output = "bbq:yeast 2",
 	recipe = {"bbq:yeast", cg.food_sugar}
 })
 
