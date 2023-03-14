@@ -80,7 +80,7 @@ cs.register_craft({
 cs.register_craft({
 	type="shapeless",
 	output="bbq:london_broil_raw",
-	recipe={cg.food_pork_raw, cg.food_garlic_clove, cg.food_bacon_raw},
+	recipe={cg.food_beef_raw, cg.food_garlic_clove, cg.food_bacon_raw},
 })
 cs.register_craft({
 	type="shapeless",
