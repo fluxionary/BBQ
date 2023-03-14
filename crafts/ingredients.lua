@@ -34,7 +34,7 @@ cs.register_craft({
 
 cs.register_craft({
 	type = "shapeless",
-	output = "bbq:hotdog_raw 2",
+	output = "bbq:hotdog_raw 4",
 	recipe = {cg.food_pork_raw, cg.food_chicken_raw, "bbq:sawdust", cg.food_mortar_pestle, cg.food_cutting_board},
 })
 
