@@ -148,35 +148,35 @@ minetest.register_craftitem("bbq:london_broil", {
 minetest.register_craftitem("bbq:hamburger", {
 	description = ("Hamburger"),
 	inventory_image = "bbq_hamburger.png",
-	groups = {food = 1, food_hamburger = 1},
+	groups = {food = 1, food_sandwich = 1, food_hamburger = 1},
 	on_use = minetest.item_eat(9),
 })
 
 minetest.register_craftitem("bbq:bacon_cheeseburger", {
 	description = ("Bacon Cheeseburger"),
 	inventory_image = "bbq_bacon_cheeseburger.png",
-	groups = {food = 1, food_bacon_cheeseburger = 1},
+	groups = {food = 1, food_sandwich = 1, food_bacon_cheeseburger = 1},
 	on_use = minetest.item_eat(9),
 })
 
 minetest.register_craftitem("bbq:cheese_steak", {
 	description = ("Cheese Steak"),
 	inventory_image = "bbq_cheese_steak.png",
-	groups = {food = 1, food_bacon_cheeseburger = 1},
+	groups = {food = 1, food_sandwich = 1, food_cheese_steak = 1},
 	on_use = minetest.item_eat(8),
 })
 
 minetest.register_craftitem("bbq:hotdog", {
 	description = ("Hot Dog"),
 	inventory_image = "bbq_hotdog.png",
-	groups = {food = 1, food_hotdog = 1},
+	groups = {food = 1, food_sandwich = 1, food_hotdog = 1},
 	on_use = minetest.item_eat(8),
 })
 
 minetest.register_craftitem("bbq:pulled_pork", {
 	description = ("Pulled Pork"),
 	inventory_image = "bbq_pulled_pork.png",
-	groups = {food = 1, food_meat = 1, food_pulled_pork = 1},
+	groups = {food = 1, food_sandwich = 1, food_meat = 1, food_pulled_pork = 1},
 	on_use = minetest.item_eat(8),
 })
 
