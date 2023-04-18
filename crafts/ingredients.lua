@@ -28,7 +28,7 @@ cs.register_craft({
 
 cs.register_craft({
 	type = "shapeless",
-	output = "bbq:hamburger_patty_raw",
+	output = "bbq:hamburger_patty_raw 2",
 	recipe = {"bbq:ground_meat_raw"},
 })
 
