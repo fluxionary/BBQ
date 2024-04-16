@@ -164,7 +164,7 @@ cg.food_vanilla = "group:food_vanilla"
 cg.food_vegan = "group:food_vegan"
 cg.food_vegan_meat = "group:food_vegan_meat"
 cg.food_vegan_sandwich = "group:food_vegan_sandwich"
-cg.food_water_glass = "group:food_water_glass"
+cg.food_water_glass = "group:food_glass_water"
 cg.food_wheat = "group:food_wheat"
 cg.food_wine = "group:food_wine"
 
